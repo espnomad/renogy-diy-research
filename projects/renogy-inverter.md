@@ -1,14 +1,10 @@
----
-
-### `projects/renogy-inverter.md`
-```markdown
 # Project: Renogy inverter
 
 - **Link**: (add your primary reference link here)
-- **Author**: (name or org)
+- **Author**: Toon Nelissen
 - **Type**: ESP32 / IO
 - **Focus**: Remote on/off control + status LED read; potential UART/RS interface if supported
-- **Status**: (Active / Inactive, last check: YYYY-MM)
+- **Status**: (Active , last check: 2025-09)
 - **Tags**: #inverter #esp32 #homeassistant #gpio
 
 ---
@@ -25,3 +21,15 @@ Interface ideas for Renogy inverters: one-button panel replication, opto isolati
 #   - platform: gpio
 #     pin: 21
 #     name: "Inverter Power"
+```
+
+---
+
+## 🗒️ Notes
+- Debounce and press length (short vs long)
+- LED readout via voltage divider + ADC
+- Safety considerations
+  
+---
+
+## 📚 Sources
