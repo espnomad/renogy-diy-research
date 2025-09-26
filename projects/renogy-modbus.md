@@ -27,6 +27,7 @@ Short description of what this effort covers: Modbus frame format, register maps
 ---
 
 ## 🗒️ Notes
+
 - Register quirks or vendor differences
 - Cable/termination notes (RS485 A/B, 120Ω)
 - HA entity naming conventions
@@ -34,5 +35,9 @@ Short description of what this effort covers: Modbus frame format, register maps
 ---
 
 ## 📚 Sources
+| Repo | Short Description | Interesting for me |
+|------|------------------|--------------------|
+| [rosswarren/renogymodbus](https://github.com/rosswarren/renogymodbus) | Python scripts to read/write Renogy Modbus registers, includes example register maps for Rover MPPT controllers. | Register map decoding, Python examples I can port to ESPHome/Arduino. RJ45 Cable modbus Canbus pinout |
+| [cyrils/renogy-bt](https://github.com/cyrils/renogy-bt) | bluetooth integration of the BT-2 working over modbus | great [documentation](https://github.com/cyrils/renogy-bt/discussions/94) |
 
 --- 
