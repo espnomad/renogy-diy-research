@@ -14,6 +14,7 @@ It’s my **personal knowledge base** to track useful repos, code snippets, and 
 |--------|------|-------|-------------|------|
 | Renogy Inverter | ESP32 / IO | Remote inverter on/off, status | _TBD (auto)_ | [projects/renogy-inverter.md](projects/renogy-inverter.md) |
 | Renogy Modbus | Arduino / ESPHome | RS485/Modbus decode for MPPT & DC-DC | _TBD (auto)_ | [projects/renogy-modbus.md](projects/renogy-modbus.md) |
+| Renogy Shunt | ESPHome / INA2xx | Battery shunt measurement + HA | _TBD (auto)_ | [projects/renogy-shunt.md](projects/renogy-shunt.md) |
 <!--INDEX:END-->
 
 ---
