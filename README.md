@@ -14,7 +14,7 @@ It’s my **personal knowledge base** to track useful repos, code snippets, and 
 |--------|------|-------|-------------|------|
 | Renogy Bt 2 | ESP32 / RS485 | Reverse-engineering BT-2 adapter protocol | _TBD (auto)_ | [projects/renogy-bt-2.md](projects/renogy-bt-2.md) |
 | Renogy Inverter | ESP32 / IO | Remote inverter on/off, status | _TBD (auto)_ | [projects/renogy-inverter.md](projects/renogy-inverter.md) |
-| Renogy Modbus | Arduino / ESPHome | RS485/Modbus decode for MPPT & DC-DC | _TBD (auto)_ | [projects/renogy-modbus.md](projects/renogy-modbus.md) |
+| Renogy Modbus | Arduino / ESPHome | RS485/Modbus decode for MPPT & DC-DC | 2025-08-02 | [projects/renogy-modbus.md](projects/renogy-modbus.md) |
 | Renogy Shunt | ESPHome / INA2xx | Battery shunt measurement + HA | _TBD (auto)_ | [projects/renogy-shunt.md](projects/renogy-shunt.md) |
 <!--INDEX:END-->
 
