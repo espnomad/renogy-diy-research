@@ -7,29 +7,26 @@ It’s my **personal knowledge base** to track useful repos, code snippets, and 
 
 ## 📑 Project Index
 
-| Project | Type | Focus | Last Update | Link |
-|---------|------|-------|-------------|------|
-| [ESP8266 Shunt Reader](projects/esp8266-shunt.md) | ESPHome | INA226 shunt → Home Assistant | 2023 | [GitHub](https://github.com/...) |
-| [Renogy MPPT RS485](projects/renogy-mppt-rs485.md) | Arduino | RS485 → Modbus decoding | 2024 | [GitHub](https://github.com/...) |
-| … | … | … | … | … |
+> The **Last Update** column is auto-filled by a GitHub Action that looks at the GitHub repos listed in each project page’s **Sources** section and uses the most recent `pushed_at` date.
+
+<!--INDEX:START-->
+| Project | Type | Focus | Last Update | Page |
+|--------|------|-------|-------------|------|
+| Renogy Modbus | Arduino / ESPHome | RS485/Modbus decode for MPPT & DC-DC | _TBD (auto)_ | [projects/renogy-modbus.md](projects/renogy-modbus.md) |
+| Renogy BT-2 | ESP32 / RS485 | Reverse-engineering BT-2 adapter protocol | _TBD (auto)_ | [projects/renogy-bt-2.md](projects/renogy-bt-2.md) |
+| Renogy Shunt | ESPHome / INA2xx | Battery shunt measurement + HA | _TBD (auto)_ | [projects/renogy-shunt.md](projects/renogy-shunt.md) |
+| Renogy inverter | ESP32 / IO | Remote inverter on/off, status | _TBD (auto)_ | [projects/renogy-inverter.md](projects/renogy-inverter.md) |
+<!--INDEX:END-->
 
 ---
 
-## 🧰 Usage
+## 🧰 How I use this
 
-- Every new project gets its own file in `/projects/` using the [template](templates/project-template.md).
-- The README table links to those files for quick scanning.
-- Use **tags** inside the file (`#esphome #mppt #rs485`) so I can search fast.
+- Each project gets its own page in `/projects/` using the template in `/templates/project-template.md`.
+- Under **Sources**, list one or more GitHub repos (one per bullet).  
+  The Action will read these links and update the README’s **Last Update** with the most recent commit date among them.
 
----
-
-## 🔎 Tags
-
-Common tags:
-- `#esphome` – ESPHome integrations  
-- `#arduino` – Arduino/C++ code  
-- `#shunt` – Battery/shunt readings  
-- `#rs485` – Modbus / serial  
-- `#inverter` – Inverter control  
+**Tags I use** (searchable):  
+`#esphome`, `#arduino`, `#rs485`, `#modbus`, `#bt2`, `#shunt`, `#ina228`, `#inverter`.
 
 ---
